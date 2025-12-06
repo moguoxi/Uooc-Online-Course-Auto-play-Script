@@ -1,2 +1,3 @@
 # Uooc-Online-Course-Auto-play-Script
 优课网课自动挂机脚本，可以实现课程内容的网课保活挂机、自动切视频等功能
+使用方法：双击“启动器.bat”，程序会自动创建、下载需要的环境DrissionPage，然后启动浏览器窗口（需要电脑已安装Chrome浏览器）。接下来打开网课页面即可
