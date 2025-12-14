@@ -111,3 +111,18 @@ pip install -r requirements.txt
 
 * 配置文件在config.py内，用户如有需要可以通过修改内部的参数。
 * **修改config.py不会影响exe文件的参数配置。**
+
+## 关于测验节点
+
+* 本来我想尝试所有题目穷举完成，但发现提交次数太多会触发人机验证，一时半会儿不知道怎么解决，于是放弃了。但是现在quiz_get_text可以快速获取测验节点的题目文字内容，方便复制给AI答题。只需在测验节点界面允许一下命令即可：
+
+* 启动虚拟环境
+```
+lite_env\Scripts\activate
+```
+
+* 允许代码
+```
+python quiz_get_text.py
+```
+
