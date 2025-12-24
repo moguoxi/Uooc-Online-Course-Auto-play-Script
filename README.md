@@ -109,7 +109,7 @@ pip install -r requirements.txt
 
 ### 配置修改：
 
-* 配置文件在config.py内，用户如有需要可以通过修改内部的参数。
+* 配置文件在config.py和main.py内，用户如有需要可以通过修改内部的参数。
 * **修改config.py不会影响exe文件的参数配置。**
 
 ## 关于测验节点
@@ -121,8 +121,17 @@ pip install -r requirements.txt
 lite_env\Scripts\activate
 ```
 
-* 允许代码
+* 运行代码
 ```
 python quiz_get_text.py
 ```
 
+# 2025.12.24更新
+
+## 自动讨论脚本discussion_bot.py
+
+* 在讨论界面，运行discussion_bot.py即可自动每隔两分钟发送一条评论。运行代码后，需自行输入评论的标题和内容，然后会自动发送20条评论，可获取30讨论分。
+
+## 多开器
+
+* 新增多开启动器和多开讨论器，运行多开器后，输入需要多开的数量，然后会占用相应数量端口，从9222开始。例如若3开，则占用9222、9223、9224三个端口
